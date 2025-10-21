@@ -1,0 +1,95 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>한양가(漢陽歌)</title>
+        <author>작자 미상</author>
+        <editor role="translator">정채연</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>미상</publisher>
+        <date>조선 후기</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>https://encykorea.aks.ac.kr/Article/E0061819</p>
+      </sourceDesc>
+    </fileDesc>
+    </teiHeader>
+  <text>
+    <body>
+        <pb n="1" facs="https://i.postimg.cc/DwbvGphx/hanyangga.png"/>
+        <head type="chapter" rend="bold larger">한양가</head>
+        <div type="original">
+            <head>원문</head>
+            <lg>
+                <l xml:id="l1">실푸다 친구임내 이가사 드러보소</l>
+                <l xml:id="l2">엇든가사 지엇난고 한양<choice><sic>강</sic><corr>가</corr></choice><ref target="#n1">[주1]</ref>을 지여선내</l>
+                <l xml:id="l3">이가사을 보서오면 한양사젹 자시아리</l>
+                <l xml:id="l4">오백연 지낸사져 흥망셩쇠 여개잇소</l>
+                <l xml:id="l5">이십팔왕 지<choice><sic></sic><corr>치</corr></choice>국한이 선불선이 모도잇소</l>
+                <l xml:id="l6">장할시고 우리<choice><sic>택</sic><corr>태</corr></choice>조 놀납도다 우리대왕</l>
+                <l xml:id="l7">장약도 장할시고 문필도 유여하와</l>
+                <l xml:id="l8">아달리 팔형제요 복녁이 더욱조타</l>
+                <l xml:id="l9">이십의 등과하야 삼십이 못되여셔</l>
+                <l xml:id="l10">쳠음배살 무여신고 츙무대장 하엿션내</l>
+                <l xml:id="l11">이ᄯᅢ가 여는ᄯᅢᆫ가 공양왕의 말년이랴</l>
+                <l xml:id="l12"><rs type="person">졍포은</rs> 정셩이요 <rs type="person">권야촌</rs>는 판서로다</l>
+                <l xml:id="l13"><rs type="person">황방촌</rs>는 보국이요 <rs type="person">길야은</rs>는 쥬셔로다</l>
+                <l xml:id="l14">조정은 씩씩하나 인군이 혼우하니</l>
+                <l xml:id="l15">그 나라를 보존한들 그 사직을 직킬소냐</l>
+                <l xml:id="l16">태조대왕 거동보소 송악산 놉피올나</l>
+                <l xml:id="l17">신혈사의 드려가서 글을 짓고 도라올나</l>
+                <l xml:id="l18">쳔긔을 바라보고 국운얼 요량하니</l>
+                <l xml:id="l19">왕건ᄐᆡ조 전한사직 사ᄇᆡᆨ<choice><sic>철</sic><corr>칠</corr></choice>십 오연이라</l>
+                <l xml:id="l20"><rs type="person">퉁두랑</rs>언 상장이요 <rs type="person">정삼봉</rs>언 모사로다</l>
+                <l xml:id="l21">일조외 반정하여 슈창궁의 등국한이</l>
+                <l xml:id="l22">등국하신 칠연만에 태평과을 보이실세</l>
+                <l xml:id="l23">긋ᄯᅢ이 어는ᄯᅤᆫ고 임<choice><sic>진</sic><corr>신</corr></choice>칠월 열엿새라</l>
+                <l xml:id="l24">포은을 두려한니 어는누가 과거보리</l>
+            </lg>
+        </div>
+        <div type="translation">
+            <head>현대어역</head><p><ref target="#n2">[주2]</ref></p>
+            <lg>
+                <l corresp="#l1">슬프다 친구님네 이 가사를 들어보소</l>
+                <l corresp="#l2">어떤 가사를 지었는고 한양가를 지었었네</l>
+                <l corresp="#l3">이 가사를 보시면은 한양 사적<ref target="#n3">[주3]</ref>을 자세히 알리</l>
+                <l corresp="#l4">오백 년 지낸 사적 흥망성쇠 여기 있소</l>
+                <l corresp="#l5">이십팔왕<ref target="#n4">[주4]</ref> 치국<ref target="#n5">[주5]</ref>하니 선불선<ref target="#n6">[주6]</ref>이 모두 있소</l>
+                <l corresp="#l6">장할시고 우리 태조 놀랍도다 우리 대왕</l>
+                <l corresp="#l7">장략<ref target="#n7">[주7]</ref>도 장할시고 문필도 유여<ref target="#n8">[주8]</ref>하다</l>
+                <l corresp="#l8">아들이 팔형제<ref target="#n9">[주9]</ref>요 복력<ref target="#n10">[주10]</ref>이 더욱 좋다</l>
+                <l corresp="#l9">이십 살에 등과하여 삼십 살이 못 되어서</l>
+                <l corresp="#l10">처음 벼슬 무엇인고 총무대장을 하시었네</l>
+                <l corresp="#l11">이 때가 어느 땐가 공양광의 말년이라</l>
+                <l corresp="#l12">정포은은 정승이요 권양촌은 판서로다</l>
+                <l corresp="#l13">황방촌은 보국이요 길야은은 주서로다</l>
+                <l corresp="#l14">조정은 씩씩하나 임금이 혼우하니</l>
+                <l corresp="#l15">그 나라를 보존한들 그 사직을 지킬소냐</l>
+                <l corresp="#l16">태조대왕 거동 보소 송악산 높이 올라</l>
+                <l corresp="#l17">신혈사에 들어가서 글을 짓고 돌아올라</l>
+                <l corresp="#l18">천기를 바라보고 국운을 요량하니</l>
+                <l corresp="#l19">왕건 태조 전한 사직 사백칠십오년이라</l>
+                <l corresp="#l20">퉁두란은 상장이요 정삼봉은 모사로다</l>
+                <l corresp="#l21">일조에 반정하여 수창궁에 등극하니</l>
+                <l corresp="#l22">등극하신 칠 년 만에 태평과를 보이실세</l>
+                <l corresp="#l23">그때가 어느 땐가 임신년 칠월 십육일이라</l>
+                <l corresp="#l24">포은을 두려워하니 어느 누가 과거를 보리</l>
+            </lg>
+        </div>
+    </body>
+    <back>
+        <div type="notes">
+            <note xml:id="n1" type="annotation">주1. 원문은 최대한 보이는 대로 기록하였으나, 명백한 오탈자는 수정함.</note>
+            <note xml:id="n2" type="annotation">이하 현대어역 각주의 한자는 사공수의 『한양오백년가』를 참고함.</note>
+            <note xml:id="n3" type="annotation">事蹟. 사건의 자취.</note>
+            <note xml:id="n4" type="annotation">원문 후반부에 ‘옥쇠노코 등국한니 수물엿섯 인군이요 / 츄승하신 그인군은 뉘기뉘기 츄승인가 / 덕종원종 츄승이요 진종익종 츄승이라 / 시무여섯 인군중에 내친인군이 뉘기든고 / 연산주와 광해주라 인군는 그러하니’라는 대목이 있다. 즉, 26명의 왕이 등극하였으나 연산군과 광해군이 폐위된 후 복위되지 못하였고, 덕종(세조의 장자), 원종(인조의 부친), 진종(영조의 장자), 익종(헌종의 부친)이 추존되었으므로, 저자는 조선을 28명의 왕이 치국했다고 한 것임. 참고로 저자가 말하는 26명의 왕은 1대 태조부터 26대 고종까지인 것으로 보임.</note>
+            <note xml:id="n5" type="annotation">治國. 나라를 다스림.</note>
+            <note xml:id="n6" type="annotation">善不善. 잘됨과 잘되지 못함을 아울러 이르는 말.</note>
+            <note xml:id="n7" type="annotation">將略. 장수로서의 지략과 기량.</note>
+            <note xml:id="n8" type="annotation">有餘. 넉넉함. 남음이 있음.</note>
+            <note xml:id="n9" type="annotation">진안대군, 영안대군(정종), 익안대군, 회안대군, 정안대군(태종), 덕안대군, 무안대군, 의안대군.</note>
+        </div>
+    </back>
+  </text>
+</TEI>
