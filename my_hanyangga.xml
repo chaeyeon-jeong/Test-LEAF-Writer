@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ko">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>한양가 전거 파일</title>
+        <respStmt>
+          <resp>편집</resp>
+          <name>Your Project Team</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Your Lab / DH Project</publisher>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+        <date when="2025-10-22"/>
+      </publicationStmt>
+      <sourceDesc>
+        <p>조선시대 가사 &lt;한양가&gt; 관련 명칭을 대상으로 한 프로젝트 전거 예시 파일.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2025-10-22" who="#editor1">최초 작성.</change>
+    </revisionDesc>
+    <profileDesc>
+      <particDesc>
+        <!-- (선택) 헤더 안에도 목록을 둘 수 있으나, 여기서는 standOff에 본 목록을 둠 -->
+        <listPerson/>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <!-- 전거 목록은 body/back/standOff 어디에나 둘 수 있음. 여기서는 standOff 사용 -->
+  <standOff>
+    <!-- People -->
+    <listPerson>
+      <person xml:id="person-sejong">
+        <persName>세종대왕</persName>
+        <!-- 선택: 외부 식별자 -->
+        <idno type="wikidata">Q156532</idno>
+        <note type="role">king</note>
+      </person>
+
+      <person xml:id="person-jeonginji">
+        <persName>정인지</persName>
+        <idno type="wikidata">Q126596</idno>
+        <note type="role">official</note>
+      </person>
+    </listPerson>
+
+    <!-- Places -->
+    <listPlace>
+      <place xml:id="place-hanyang">
+        <placeName>한양</placeName>
+        <idno type="wikidata">Q8680</idno>
+      </place>
+
+      <place xml:id="place-gyeongbokgung">
+        <placeName>경복궁</placeName>
+        <idno type="wikidata">Q209695</idno>
+      </place>
+    </listPlace>
+
+    <!-- Organisations -->
+    <listOrg>
+      <org xml:id="org-joseon-court">
+        <orgName>조선 조정</orgName>
+        <note>조선 왕조의 중앙 정부 기구를 포괄</note>
+        <idno type="wikidata">Q884</idno>
+      </org>
+    </listOrg>
+
+    <!-- Works / Titles -->
+    <listBibl>
+      <bibl xml:id="work-hanyangga">
+        <title>한양가</title>
+        <note>가사(歌辭), 필사 전승 자료</note>
+      </bibl>
+    </listBibl>
+  </standOff>
+</TEI>
