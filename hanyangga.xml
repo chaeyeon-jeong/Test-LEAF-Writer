@@ -488,6 +488,167 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125344735",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:53:44.735Z",
+	"dcterms:modified": "2025-10-22T03:53:44.735Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125344735#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125344735#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://encykorea.aks.ac.kr/Article/E0050190",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?place_annotation_20251022125410863",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:54:10.863Z",
+	"dcterms:modified": "2025-10-22T03:54:10.863Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?place_annotation_20251022125410863#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?place_annotation_20251022125410863#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[16]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/1869728",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -507,11 +668,11 @@
                 <l xml:id="l9">이십의 등과하야 삼십이 못되여셔</l>
                 <l xml:id="l10">쳠음배살 무여신고 츙무대장 하엿션내</l>
                 <l xml:id="l11">이ᄯᅢ가 여는ᄯᅢᆫ가 공양왕의 말년이랴</l>
-                <l xml:id="l12">졍포은 정셩이요 권야촌는 판서로다</l>
+                <l xml:id="l12"><persName key="졍포은" ref="https://encykorea.aks.ac.kr/Article/E0050190" cert="high" type="real">졍포은</persName> 정셩이요 권야촌는 판서로다</l>
                 <l xml:id="l13">황방촌는 보국이요 길야은는 쥬셔로다</l>
                 <l xml:id="l14">조정은 씩씩하나 인군이 혼우하니</l>
                 <l xml:id="l15">그 나라를 보존한들 그 사직을 직킬소냐</l>
-                <l xml:id="l16">태조대왕 거동보소 송악산 놉피올나</l>
+                <l xml:id="l16">태조대왕 거동보소 <placeName key="Songak-san" ref="https://sws.geonames.org/1869728" cert="medium">송악산<precision match="@ref" precision="high"/></placeName> 놉피올나</l>
                 <l xml:id="l17">신혈사의 드려가서 글을 짓고 도라올나</l>
                 <l xml:id="l18">쳔긔을 바라보고 국운얼 요량하니</l>
                 <l xml:id="l19">왕건ᄐᆡ조 전한사직 사ᄇᆡᆨ철십 오연이라</l>
