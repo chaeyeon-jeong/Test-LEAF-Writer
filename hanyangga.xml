@@ -93,6 +93,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124745295",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:47:45.295Z",
+	"dcterms:modified": "2025-10-22T03:47:45.295Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124745295#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124745295#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[6]/choice"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": "태"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -106,7 +185,7 @@
                 <l xml:id="l3">이가사을 보서오면 한양사젹 자시아리</l>
                 <l xml:id="l4">오백연 지낸사져 흥망셩쇠 여개잇소</l>
                 <l xml:id="l5">이십팔왕 지국한이 선불선이 모도잇소</l>
-                <l xml:id="l6">장할시고 우리택조 놀납도다 우리대왕</l>
+                <l xml:id="l6">장할시고 우리<choice><sic>택</sic><corr>태</corr></choice>조 놀납도다 우리대왕</l>
                 <l xml:id="l7">장약도 장할시고 문필도 유여하와</l>
                 <l xml:id="l8">아달리 팔형제요 복녁이 더욱조타</l>
                 <l xml:id="l9">이십의 등과하야 삼십이 못되여셔</l>
