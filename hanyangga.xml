@@ -330,6 +330,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022125008084",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:50:08.084Z",
+	"dcterms:modified": "2025-10-22T03:50:22.790Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022125008084#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022125008084#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "원문 후반부에 ‘옥쇠노코 등국한니 수물엿섯 인군이요 / 츄승하신 그인군은 뉘기뉘기 츄승인가 / 덕종원종 츄승이요 진종익종 츄승이라 / 시무여섯 인군중에 내친인군이 뉘기든고 / 연산주와 광해주라 인군는 그러하니’라는 대목이 있다. 즉, 26명의 왕이 등극하였으나 연산군과 광해군이 폐위된 후 복위되지 못하였고, 덕종(세조의 장자), 원종(인조의 부친), 진종(영조의 장자), 익종(헌종의 부친)이 추존되었으므로, 저자는 조선을 28명의 왕이 치국했다고 한 것임. 참고로 저자가 말하는 26명의 왕은 1대 태조부터 26대 고종까지인 것으로 보임."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
     <body>
@@ -342,7 +421,7 @@
                 <l xml:id="l2">엇든가사 지엇난고 한양<choice><sic>강</sic><corr>가</corr></choice>을 지여선내</l>
                 <l xml:id="l3">이가사을 보서오면 한양사젹<note n="1" type="annotation">事蹟. 사건의 자취.</note> 자시아리</l>
                 <l xml:id="l4">오백연 지낸사져 흥망셩쇠 여개잇소</l>
-                <l xml:id="l5">이십팔왕 <choice><sic>지</sic><corr>치</corr></choice>국한이 선불선이 모도잇소</l>
+                <l xml:id="l5">이십팔왕<note type="annotation" n="2">원문 후반부에 ‘옥쇠노코 등국한니 수물엿섯 인군이요 / 츄승하신 그인군은 뉘기뉘기 츄승인가 / 덕종원종 츄승이요 진종익종 츄승이라 / 시무여섯 인군중에 내친인군이 뉘기든고 / 연산주와 광해주라 인군는 그러하니’라는 대목이 있다. 즉, 26명의 왕이 등극하였으나 연산군과 광해군이 폐위된 후 복위되지 못하였고, 덕종(세조의 장자), 원종(인조의 부친), 진종(영조의 장자), 익종(헌종의 부친)이 추존되었으므로, 저자는 조선을 28명의 왕이 치국했다고 한 것임. 참고로 저자가 말하는 26명의 왕은 1대 태조부터 26대 고종까지인 것으로 보임.</note> <choice><sic>지</sic><corr>치</corr></choice>국한이 선불선이 모도잇소</l>
                 <l xml:id="l6">장할시고 우리<choice><sic>택</sic><corr>태</corr></choice>조 놀납도다 우리대왕</l>
                 <l xml:id="l7">장약도 장할시고 문필도 유여하와</l>
                 <l xml:id="l8">아달리 팔형제요 복녁이 더욱조타</l>
