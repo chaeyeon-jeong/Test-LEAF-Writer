@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>한양가(漢陽歌)</title>
+        <author>작자 미상</author>
+        <editor role="translator">정채연</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>미상</publisher>
+        <date>조선 후기</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>https://encykorea.aks.ac.kr/Article/E0061819</p>
+      </sourceDesc>
+    </fileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124711628",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:47:11.628Z",
+	"dcterms:modified": "2025-10-22T03:47:11.628Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124711628#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124711628#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[2]/choice"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": "가"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124745295",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:47:45.295Z",
+	"dcterms:modified": "2025-10-22T03:47:45.295Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124745295#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124745295#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[6]/choice"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": "태"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124818548",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:48:18.548Z",
+	"dcterms:modified": "2025-10-22T03:48:18.548Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124818548#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?correction_annotation_20251022124818548#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[5]/choice"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": "치"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022124916342",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:49:16.342Z",
+	"dcterms:modified": "2025-10-22T03:49:16.342Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022124916342#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022124916342#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "事蹟. 사건의 자취."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022125022790",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:50:22.790Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022125022790#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?note_annotation_20251022125022790#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "원문 후반부에 ‘옥쇠노코 등국한니 수물엿섯 인군이요 / 츄승하신 그인군은 뉘기뉘기 츄승인가 / 덕종원종 츄승이요 진종익종 츄승이라 / 시무여섯 인군중에 내친인군이 뉘기든고 / 연산주와 광해주라 인군는 그러하니’라는 대목이 있다. 즉, 26명의 왕이 등극하였으나 연산군과 광해군이 폐위된 후 복위되지 못하였고, 덕종(세조의 장자), 원종(인조의 부친), 진종(영조의 장자), 익종(헌종의 부친)이 추존되었으므로, 저자는 조선을 28명의 왕이 치국했다고 한 것임. 참고로 저자가 말하는 26명의 왕은 1대 태조부터 26대 고종까지인 것으로 보임."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125129338",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:51:29.338Z",
+	"dcterms:modified": "2025-10-22T03:51:29.338Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125129338#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125129338#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[6]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q6514995",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125344735",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:53:44.735Z",
+	"dcterms:modified": "2025-10-22T03:53:44.735Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125344735#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?person_annotation_20251022125344735#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[12]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://encykorea.aks.ac.kr/Article/E0050190",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?place_annotation_20251022125410863",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:54:10.863Z",
+	"dcterms:modified": "2025-10-22T03:54:10.863Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?place_annotation_20251022125410863#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?place_annotation_20251022125410863#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[16]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/1869728",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?date_annotation_20251022125557220",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T03:55:57.220Z",
+	"dcterms:modified": "2025-10-22T03:55:57.220Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?date_annotation_20251022125557220#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?date_annotation_20251022125557220#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l[23]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1392"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?work_annotation_20251022141132679",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-10-22T05:11:32.679Z",
+	"dcterms:modified": "2025-10-22T05:11:32.679Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/chaeyeon-jeong",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "정채연"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?work_annotation_20251022141132679#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/main/hanyangga.xml?work_annotation_20251022141132679#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/head/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/refs/heads/main/my_hanyangga.xml#work-hanyangga",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+  <text>
+    <body>
+        <pb n="1" facs="https://i.postimg.cc/DwbvGphx/hanyangga.png"/>
+        <head type="chapter" rend="bold larger"><title key="한양가" ref="https://raw.githubusercontent.com/chaeyeon-jeong/Test-LEAF-Writer/refs/heads/main/my_hanyangga.xml#work-hanyangga" level="u">한양가</title></head>
+        <div type="original">
+            <head>원문</head>
+            <lg>
+                <l xml:id="l1">실푸다 친구임내 이가사 드러보소</l>
+                <l xml:id="l2">엇든가사 지엇난고 한양<choice><sic>강</sic><corr>가</corr></choice>을 지여선내</l>
+                <l xml:id="l3">이가사을 보서오면 한양사젹<note n="1" type="annotation">事蹟. 사건의 자취.</note> 자시아리</l>
+                <l xml:id="l4">오백연 지낸사져 흥망셩쇠 여개잇소</l>
+                <l xml:id="l5">이십팔왕<note type="annotation" n="2">원문 후반부에 ‘옥쇠노코 등국한니 수물엿섯 인군이요 / 츄승하신 그인군은 뉘기뉘기 츄승인가 / 덕종원종 츄승이요 진종익종 츄승이라 / 시무여섯 인군중에 내친인군이 뉘기든고 / 연산주와 광해주라 인군는 그러하니’라는 대목이 있다. 즉, 26명의 왕이 등극하였으나 연산군과 광해군이 폐위된 후 복위되지 못하였고, 덕종(세조의 장자), 원종(인조의 부친), 진종(영조의 장자), 익종(헌종의 부친)이 추존되었으므로, 저자는 조선을 28명의 왕이 치국했다고 한 것임. 참고로 저자가 말하는 26명의 왕은 1대 태조부터 26대 고종까지인 것으로 보임.</note> <choice><sic>지</sic><corr>치</corr></choice>국한이 선불선이 모도잇소</l>
+                <l xml:id="l6">장할시고 우리<choice><sic>택</sic><corr>태</corr></choice>조 놀납도다 우리<persName key="Lee Seong-gye King Taejo" ref="http://www.wikidata.org/entity/Q6514995" cert="high" role="king" type="real">대왕</persName></l>
+                <l xml:id="l7">장약도 장할시고 문필도 유여하와</l>
+                <l xml:id="l8">아달리 팔형제요 복녁이 더욱조타</l>
+                <l xml:id="l9">이십의 등과하야 삼십이 못되여셔</l>
+                <l xml:id="l10">쳠음배살 무여신고 츙무대장 하엿션내</l>
+                <l xml:id="l11">이ᄯᅢ가 여는ᄯᅢᆫ가 공양왕의 말년이랴</l>
+                <l xml:id="l12"><persName key="졍포은" ref="https://encykorea.aks.ac.kr/Article/E0050190" cert="high" type="real">졍포은</persName> 정셩이요 권야촌는 판서로다</l>
+                <l xml:id="l13">황방촌는 보국이요 길야은는 쥬셔로다</l>
+                <l xml:id="l14">조정은 씩씩하나 인군이 혼우하니</l>
+                <l xml:id="l15">그 나라를 보존한들 그 사직을 직킬소냐</l>
+                <l xml:id="l16">태조대왕 거동보소 <placeName key="Songak-san" ref="https://sws.geonames.org/1869728" cert="medium">송악산<precision match="@ref" precision="high"/></placeName> 놉피올나</l>
+                <l xml:id="l17">신혈사의 드려가서 글을 짓고 도라올나</l>
+                <l xml:id="l18">쳔긔을 바라보고 국운얼 요량하니</l>
+                <l xml:id="l19">왕건ᄐᆡ조 전한사직 사ᄇᆡᆨ철십 오연이라</l>
+                <l xml:id="l20">퉁두랑언 상장이요 정삼봉언 모사로다</l>
+                <l xml:id="l21">일조외 반정하여 슈창궁의 등국한이</l>
+                <l xml:id="l22">등국하신 칠연만에 태평과을 보이실세</l>
+                <l xml:id="l23">긋ᄯᅢ이 어는ᄯᅤᆫ고 <date when="1392">임진칠월 열엿새</date>라</l>
+                <l xml:id="l24">포은을 두려한니 어는누가 과거보리</l>
+            </lg>
+        </div>
+        <div resp="정채연" type="translation" xml:lang="ko">
+            <head>현대어역</head>
+            <lg>
+                <l corresp="#l1">슬프다 친구님네 이 가사를 들어보소</l>
+                <l corresp="#l2">어떤 가사를 지었는고 한양가를 지었었네</l>
+                <l corresp="#l3">이 가사를 보시면은 한양 사적을 자세히 알리</l>
+                <l corresp="#l4">오백 년 지낸 사적 흥망성쇠 여기 있소</l>
+                <l corresp="#l5">이십팔왕 치국하니 선불선이 모두 있소</l>
+                <l corresp="#l6">장할시고 우리 태조 놀랍도다 우리 대왕</l>
+                <l corresp="#l7">장략도 장할시고 문필도 유여하다</l>
+                <l corresp="#l8">아들이 팔형제요 복력이 더욱 좋다</l>
+                <l corresp="#l9">이십 살에 등과하여 삼십 살이 못 되어서</l>
+                <l corresp="#l10">처음 벼슬 무엇인고 총무대장을 하시었네</l>
+                <l corresp="#l11">이 때가 어느 땐가 공양광의 말년이라</l>
+                <l corresp="#l12">정포은은 정승이요 권양촌은 판서로다</l>
+                <l corresp="#l13">황방촌은 보국이요 길야은은 주서로다</l>
+                <l corresp="#l14">조정은 씩씩하나 임금이 혼우하니</l>
+                <l corresp="#l15">그 나라를 보존한들 그 사직을 지킬소냐</l>
+                <l corresp="#l16">태조대왕 거동 보소 송악산 높이 올라</l>
+                <l corresp="#l17">신혈사에 들어가서 글을 짓고 돌아올라</l>
+                <l corresp="#l18">천기를 바라보고 국운을 요량하니</l>
+                <l corresp="#l19">왕건 태조 전한 사직 사백칠십오년이라</l>
+                <l corresp="#l20">퉁두란은 상장이요 정삼봉은 모사로다</l>
+                <l corresp="#l21">일조에 반정하여 수창궁에 등극하니</l>
+                <l corresp="#l22">등극하신 칠 년 만에 태평과를 보이실세</l>
+                <l corresp="#l23">그때가 어느 땐가 임신년 칠월 십육일이라</l>
+                <l corresp="#l24">포은을 두려워하니 어느 누가 과거를 보리</l>
+            </lg>
+        </div>
+    </body>
+    <back>
+        <div type="notes">
+            <note xml:id="n0" type="annotation">현대어역 각주의 한자는 사공수의 『한양오백년가』를 참고함.</note>
+        </div>
+    </back>
+  </text>
+</TEI>
