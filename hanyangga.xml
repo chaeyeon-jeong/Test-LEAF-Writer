@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,7 +14,7 @@
         <p>https://encykorea.aks.ac.kr/Article/E0061819</p>
       </sourceDesc>
     </fileDesc>
-    </teiHeader>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
   <text>
     <body>
         <pb n="1" facs="https://i.postimg.cc/DwbvGphx/hanyangga.png"/>
@@ -36,11 +33,11 @@
                 <l xml:id="l9">이십의 등과하야 삼십이 못되여셔</l>
                 <l xml:id="l10">쳠음배살 무여신고 츙무대장 하엿션내</l>
                 <l xml:id="l11">이ᄯᅢ가 여는ᄯᅢᆫ가 공양왕의 말년이랴</l>
-                <l xml:id="l12"><persName key="졍포은" ref="https://encykorea.aks.ac.kr/Article/E0050190" cert="high" type="real">졍포은</persName> 정셩이요 <rs xml:id="1">권야촌</rs>는 판서로다</l>
+                <l xml:id="l12"><persName key="졍포은" ref="https://encykorea.aks.ac.kr/Article/E0050190" cert="high" type="real">졍포은</persName> 정셩이요 권야촌는 판서로다</l>
                 <l xml:id="l13"><persName type="신하">황방촌</persName>는 보국이요 길야은는 쥬셔로다</l>
                 <l xml:id="l14">조정은 씩씩하나 인군이 혼우하니</l>
                 <l xml:id="l15">그 나라를 보존한들 그 사직을 직킬소냐</l>
-                <l xml:id="l16"><persName>태조대왕</persName> 거동보소 <placeName key="Songak-san" ref="https://sws.geonames.org/1869728" cert="medium">송악산<precision match="@ref" precision="high" /></placeName> 놉피올나</l>
+                <l xml:id="l16"><persName>태조대왕</persName> 거동보소 <placeName key="Songak-san" ref="https://sws.geonames.org/1869728" cert="medium">송악산<precision match="@ref" precision="high"/></placeName> 놉피올나</l>
                 <l xml:id="l17">신혈사의 드려가서 글을 짓고 도라올나</l>
                 <l xml:id="l18">쳔긔을 바라보고 국운얼 요량하니</l>
                 <l xml:id="l19">왕건ᄐᆡ조 전한사직 사ᄇᆡᆨ철십 오연이라</l>
